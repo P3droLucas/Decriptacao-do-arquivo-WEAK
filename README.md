@@ -1,8 +1,5 @@
 # PROCESSO DE DECRIPTAÇÃO DO ARQUIVO "arquivo-weak-9.in-full.hex"
 
-**Aluno:** Pedro Lucas Moraes de Sousa Rosa  
-**Professor:** Wewerton Luis da Costa Cordeiro
-
 A implementação utilizada foi um ataque de força bruta focado e otimizado, baseado em algumas informações conhecidas:
 
 ## 1ª Informação conhecida critica:
