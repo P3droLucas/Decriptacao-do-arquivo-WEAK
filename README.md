@@ -27,11 +27,15 @@ Em vez de testar todas as combinações possíveis de 16 bytes, o código:
 - O código testa diferentes combinações simultaneamente através de "pool.apply_async"
 
 ## 4º Validação Eficiente:
+![image](https://github.com/user-attachments/assets/efaeb48f-ea80-4bb0-83ed-c6e533f0f70f)
+
 
 - Verifica rapidamente se o texto decifrado é ASCII legível
 - Funciona como critério de parada quando encontra a chave correta
 
 ## 5º Processo de Decifração:
+![image](https://github.com/user-attachments/assets/f429db68-d6f5-48d7-8417-abfd08a4d634)
+
 
 - Usa a biblioteca "Cryptodome" para implementação do AES
 - Modo ECB permite testar cada chave independentemente
@@ -60,3 +64,5 @@ Esta implementação é particularmente eficiente porque:
 - Tempo máximo de decriptação = 510.86 segundos (8 minutos e 514 segundos)
 - Quantidade de chaves testadas até encontrar a chave correta: 53.324.077
 - Média de chaves testadas por segundo: 835.049,68 (8 threads) chaves/seg
+  ![image](https://github.com/user-attachments/assets/c7d4eca0-be19-4b29-919a-ee99aaaa6183)
+
